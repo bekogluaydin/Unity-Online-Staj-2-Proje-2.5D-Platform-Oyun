@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class LevelsUnlock : MonoBehaviour
 {
     public Button[] levelButtons;
-    public int indexNumber = 0;
+    public static int indexNumber = 0;
+    // Start is called before the first frame update
     void Start()
     {
         foreach (Button levelButton in levelButtons)
@@ -19,12 +19,11 @@ public class LevelsUnlock : MonoBehaviour
         {
             levelButtons[i].interactable = true;
             if (levelButtons[i].interactable)
-                indexNumber = i+1;
+                indexNumber = i + 1;
         }
     }
-
-    public void ContinueGame()
+   public void ContinueGame()
     {
-        SceneManager.LoadScene(indexNumber);
+        LevelManager.ContinueGame();
     }
 }

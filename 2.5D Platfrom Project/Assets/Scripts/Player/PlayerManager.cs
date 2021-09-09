@@ -13,7 +13,8 @@ public class PlayerManager : MonoBehaviour
     public Slider healthBar;
     public static bool gameOver, winLevel, reducingHealth;
     public GameObject gameOverPanel;
-    int nextLevel = 0;
+
+    public GameObject nextLevelButton;
     void Start()
     {
         numberOfCoins = 0;
@@ -47,30 +48,12 @@ public class PlayerManager : MonoBehaviour
         {
             winLevel = true;
 
-            if (winLevel)
-            {
-                GetLevel();
-            }
+            //if (winLevel)
+            //{
+            //    LevelManager.GetLevel();
+            //    nextLevelButton.SetActive(true);
+            //}
         }       
-    }
-
-    public void GetLevel()
-    {
-        int levelCount = SceneManager.GetActiveScene().buildIndex + 1;
-        
-        if (levelCount == SceneManager.sceneCountInBuildSettings)
-        {
-            Debug.Log(levelCount + " : " + SceneManager.sceneCountInBuildSettings);
-            SceneManager.LoadScene(0);
-        }
-        else
-        {
-            nextLevel = levelCount;
-            if (PlayerPrefs.GetInt("ReachedLevel", 1) < nextLevel)
-                PlayerPrefs.SetInt("ReachedLevel", nextLevel);
-
-            SceneManager.LoadScene(nextLevel);
-        }
     }
 
     public void GameOver()

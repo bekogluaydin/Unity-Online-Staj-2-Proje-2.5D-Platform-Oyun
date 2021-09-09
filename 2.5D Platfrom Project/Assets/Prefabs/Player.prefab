@@ -1,5 +1,39 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!95 &5361746930214352069
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5091787484917276450}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a5e54d80f74d21c4dbe63f72af46515a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5361746930214352068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5091787484917276450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b9681355d10435428c63acfcdfa7ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireBall: {fileID: 180995435921750738, guid: a4764208901e82d45923c0696d0762d6, type: 3}
+  fireBallPoint: {fileID: 5361746929719459317}
+  fireBallSpeed: 620
 --- !u!1 &5361746928629014871
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,16 +147,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 5361746928629014870}
-  speed: 8
-  jumpForce: 10
-  gravity: -20
   groundCheck: {fileID: 5361746929197257929}
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
+  speed: 8
+  jumpForce: 9.2
+  climbSpeed: 370
+  gravity: -20
   ableToMakeADoubleJump: 1
+  isGrounded: 0
+  ableToMakeClimb: 0
   animator: {fileID: 5361746930214352069}
   playerModel: {fileID: 5612181203554026904}
+  climbButton: {fileID: 0}
 --- !u!143 &5361746928629014870
 CharacterController:
   m_ObjectHideFlags: 0
@@ -201,40 +239,6 @@ Transform:
   m_Father: {fileID: 5612181203554026904}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &5361746930214352069
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5091787484917276450}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a5e54d80f74d21c4dbe63f72af46515a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5361746930214352068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5091787484917276450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b9681355d10435428c63acfcdfa7ac3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fireBall: {fileID: 180995435921750738, guid: a4764208901e82d45923c0696d0762d6, type: 3}
-  fireBallPoint: {fileID: 5361746929719459317}
-  fireBallSpeed: 620
 --- !u!1001 &5361746928927974003
 PrefabInstance:
   m_ObjectHideFlags: 0
