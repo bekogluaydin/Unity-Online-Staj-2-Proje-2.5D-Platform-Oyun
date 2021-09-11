@@ -1,11 +1,16 @@
 ### Online-Staj-2-Proje-2.5D-Platform-Oyun
 Online Staj 2 Proje(2.5D Platform Oyun)
-
+Most of the assets are from the Asset Store and free assets. So the game may not be very good in terms of UI. My second major game with Unity. The first was the card guessing game. This project was developed for internship 2 and will continue to be developed.
 ## Main Menu
-asd
+There are 3 buttons in the Main Menu. 
+1. Start button, that is, the last level of the user continues from there.
+2. Level selection button; With this button, previously played levels can be selected.
+3. Exit button; Allows you to exit the game.
+
 ![MainMenu](https://user-images.githubusercontent.com/51875713/132951787-034aec8d-81a2-4f91-bb85-41aa29d1fc60.png)
+
 # Main Menu Level Chosoe
-asdas
+You can choose and play previously played levels from this section. I used PlayerPrefs for this. Buttons become active or inactive according to PlayerPrefs.
 ![MainMenu_LevelSelection](https://user-images.githubusercontent.com/51875713/132951894-72279123-822c-4c99-aace-7535a6fb24dc.png)
 
 ## Sample Level
@@ -15,6 +20,11 @@ sdsa
 ![SampleLevel2](https://user-images.githubusercontent.com/51875713/132951941-88b91eef-82ec-41d8-aa94-34b6abdee229.png)
 ![SampleLevel3](https://user-images.githubusercontent.com/51875713/132951945-e66562ec-7ea0-4563-bea9-ac1fa41f5b8b.png)
 ![SampleLevel4](https://user-images.githubusercontent.com/51875713/132951946-ee8ed10a-49d4-4bc2-a296-92abf2703cd4.png)
+
+# Sample Level Climb Ladder
+sada
+![SampleLevel_ClimbLadder1](https://user-images.githubusercontent.com/51875713/132952050-4639f5cf-4707-4ee2-ad99-2d95b9579c5d.png)
+![SampleLevel_ClimbLadder2](https://user-images.githubusercontent.com/51875713/132952051-8dd81654-54ca-4d05-a4bb-9572ad070133.png)
 
 # Sample Level Game Over Screen
 sada
