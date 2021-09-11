@@ -13,7 +13,7 @@ public class LevelManager : MonoBehaviour
     public static int nextLevel = 0;
     private float _target;
 
-    public static bool deneme = true;
+    public static bool isEndOfLevel = true;
 
     [SerializeField] private  GameObject _loaderCanvas;
     [SerializeField] private  Image _progressBar;
@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
-        deneme = true;
+        isEndOfLevel = true;
     }
  
     public static void ContinueGame()
@@ -88,7 +88,7 @@ public class LevelManager : MonoBehaviour
 
         scene.allowSceneActivation = true;
         _loaderCanvas.SetActive(false);
-        deneme = true;
+        isEndOfLevel = true;
         //if (nextLevel != 0)
         //{
         //   deneme = true;
@@ -97,9 +97,9 @@ public class LevelManager : MonoBehaviour
 
     private void Update()
     {
-        if (PlayerManager.winLevel && deneme)
+        if (PlayerManager.winLevel && isEndOfLevel)
         {
-            deneme =! deneme;
+            isEndOfLevel = !isEndOfLevel;
             GetLevel();
             //nextLevelButton.SetActive(true);
             LoadScene(nextLevel);

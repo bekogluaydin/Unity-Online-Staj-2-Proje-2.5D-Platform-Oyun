@@ -6,10 +6,6 @@ public class Coin : MonoBehaviour
 {
     public float rotationSpeed = 50;
     public int score = 0;
-    void Start()
-    {
-        
-    }
 
     void Update()
     {

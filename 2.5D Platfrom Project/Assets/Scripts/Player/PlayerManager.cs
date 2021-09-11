@@ -13,8 +13,6 @@ public class PlayerManager : MonoBehaviour
     public Slider healthBar;
     public static bool gameOver, winLevel, reducingHealth;
     public GameObject gameOverPanel;
-
-    public GameObject nextLevelButton;
     void Start()
     {
         numberOfCoins = 0;
@@ -47,12 +45,6 @@ public class PlayerManager : MonoBehaviour
         if (FindObjectsOfType<Enemy>().Length == 0 && PlayerController.atTheDoor)
         {
             winLevel = true;
-
-            //if (winLevel)
-            //{
-            //    LevelManager.GetLevel();
-            //    nextLevelButton.SetActive(true);
-            //}
         }       
     }
 

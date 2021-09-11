@@ -22,8 +22,4 @@ public class LevelsUnlock : MonoBehaviour
                 indexNumber = i + 1;
         }
     }
-   public void ContinueGame()
-    {
-        LevelManager.ContinueGame();
-    }
 }

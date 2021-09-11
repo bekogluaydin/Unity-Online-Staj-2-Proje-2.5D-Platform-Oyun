@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 {
     private string currentState = "IdleState";
     private Transform target;
-    public float chaseRange = 5, attackRange = 2, followRange, enemySpeed = 3;
+    [SerializeField] private float chaseRange, attackRange, followRange, enemySpeed;
     public Animator animator;
     public Slider enemyHealthBar;
     public Gradient gradient;
@@ -19,8 +19,7 @@ public class Enemy : MonoBehaviour
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
         enemyHP = enemyMaxHP;
-        enemyHealthBar.maxValue = enemyHP;
-        enemyHealthBar.value = enemyHP;
+        enemyHealthBar.maxValue = enemyHealthBar.value = enemyHP;
         fill.color = gradient.Evaluate(1f);
     }
 
@@ -33,6 +32,7 @@ public class Enemy : MonoBehaviour
             animator.SetBool("isAttacking", false);
             animator.SetBool("gameOver", true);
         }
+
         float distance = Vector3.Distance(transform.position, target.position);
 
         #region IdleRunAttackState
