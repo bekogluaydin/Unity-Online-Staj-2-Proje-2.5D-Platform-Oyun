@@ -151,7 +151,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
-  speed: 8
+  speed: 7.55
   jumpForce: 9.2
   climbSpeed: 370
   gravity: -20
@@ -161,6 +161,8 @@ MonoBehaviour:
   animator: {fileID: 5361746930214352069}
   playerModel: {fileID: 5612181203554026904}
   climbButton: {fileID: 0}
+  jumpButton: {fileID: 0}
+  attackButton: {fileID: 0}
 --- !u!143 &5361746928629014870
 CharacterController:
   m_ObjectHideFlags: 0
@@ -665,6 +667,10 @@ PrefabInstance:
     - target: {fileID: 1189529853000058984, guid: c46e712d60b196b4eac4a517a811502e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -5.468295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285705782834317151, guid: c46e712d60b196b4eac4a517a811502e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1330755669629619180, guid: c46e712d60b196b4eac4a517a811502e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

@@ -418,10 +418,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb1d598828d8f6c459caac401ac4e503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseRange: 5.2
-  attackRange: 2.35
-  followRange: 11.1
-  enemySpeed: 3.45
+  chaseRange: 5.25
+  attackRange: 2.32
+  followRange: 11.2
+  enemySpeed: 3.9
   animator: {fileID: 4045657554338091562}
   enemyHealthBar: {fileID: 4045657553236327426}
   gradient:
