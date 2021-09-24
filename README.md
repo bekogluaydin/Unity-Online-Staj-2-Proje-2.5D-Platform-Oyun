@@ -12,7 +12,7 @@ There are 3 buttons in the Main Menu.
 # Main Menu Level Chosoe
 You can choose and play previously played levels from this section. I used PlayerPrefs for this. Buttons become active or inactive according to PlayerPrefs.
 
-![MainMenu_LevelSelection](https://user-images.githubusercontent.com/51875713/132951894-72279123-822c-4c99-aace-7535a6fb24dc.png)
+![MainMenu_LevelSelection](https://user-images.githubusercontent.com/51875713/134647507-59a84d6f-77cb-4bac-a4a7-c90d75293e5e.png)
 
 ## Sample Level
 Sample designs for a level(Level 3). As I said, assets are free and i got them from asset store.
@@ -48,3 +48,17 @@ When the character we manage dies (by the enemy or falls down), the endgame pane
 When the chapter is completed successfully, this panel opens while moving to the next chapter.
 
 ![SampleLevel_nextLevelPass](https://user-images.githubusercontent.com/51875713/132951938-33f2c8a5-e5a4-4fd5-a8ec-34ddbfef69a4.png)
+
+## New Additions
+Design adjustments were made and 3 winter maps were added to the game.
+
+## Added New Player Controller Buttons
+Added new buttons for character control and this buttons press effect has been added.
+
+![NewButton](https://user-images.githubusercontent.com/51875713/134648032-304fb295-9c4e-4fc3-b1d1-6fcd17dee5c2.png)
+
+##  Added 3 New Winter Maps
+There were 3 forest maps. Added 3 new winter maps.
+
+![WinterMap1](https://user-images.githubusercontent.com/51875713/134648852-554c175d-41bb-4175-b386-b4530c935e5a.png)
+![WinterMap2](https://user-images.githubusercontent.com/51875713/134648857-180ce1e0-e468-4cfa-ba5d-fa8a36dccc45.png)
