@@ -18,18 +18,6 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private  GameObject _loaderCanvas;
     [SerializeField] private  Image _progressBar;
     [SerializeField] private TextMeshProUGUI levelNameText;
-    private void Awake()
-    {
-        //if (Instance == null)
-        //{
-        //    Instance = this;
-        //    DontDestroyOnLoad(gameObject);
-        //}
-        //else
-        //{
-        //    Destroy(gameObject);
-        //}
-    }
 
     void Start()
     {
@@ -40,11 +28,6 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene(LevelsUnlock.indexNumber);
     }
-
-    //public void Deneme()
-    //{
-    //    LoadScene(nextLevel);
-    //}
 
     public static void GetLevel()
     {
