@@ -52,12 +52,12 @@ When the chapter is completed successfully, this panel opens while moving to the
 ## New Additions
 Design adjustments were made and 3 winter maps were added to the game.
 
-## Added New Player Controller Buttons
+### Added New Player Controller Buttons
 Added new buttons for character control and this buttons press effect has been added.
 
 ![NewButton](https://user-images.githubusercontent.com/51875713/134648032-304fb295-9c4e-4fc3-b1d1-6fcd17dee5c2.png)
 
-##  Added 3 New Winter Maps
+###  Added 3 New Winter Maps
 There were 3 forest maps. Added 3 new winter maps.
 
 ![WinterMap1](https://user-images.githubusercontent.com/51875713/134648852-554c175d-41bb-4175-b386-b4530c935e5a.png)
