@@ -56,7 +56,7 @@ When the chapter is completed successfully, this panel opens while moving to the
 ![SampleLevel_nextLevelPass](https://user-images.githubusercontent.com/51875713/132951938-33f2c8a5-e5a4-4fd5-a8ec-34ddbfef69a4.png)
 
 ## New Additions and Modifications
-Design adjustments were made and 3 winter maps were added to the game.
+Improvements and modifications were made to the User Interface. & Design adjustments were made and 3 winter maps were added to the game.
 
 ### Added New Player Controller Buttons
 Added new buttons for character control and this buttons press effect has been added.
