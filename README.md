@@ -1,6 +1,12 @@
 # Online-Staj-2-Proje-2.5D-Platform-Oyun
 Online Staj 2 Proje(2.5D Platform Oyun)
 Most of the assets are from the Asset Store and free assets. So the game may not be very good in terms of UI. My second major game with Unity. The first was the card guessing game. [Unity vocabulary game project link](https://github.com/MyscherzoTR/Unity-vocabulary-game-project) This project was developed for internship 2 and will continue to be developed.
+
+## İçerikler
+- Main Menü
+- Example Level Display
+- New Additions
+
 ## Main Menu
 There are 3 buttons in the Main Menu. 
 1. Start button, that is, the last level of the user continues from there.
