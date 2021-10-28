@@ -1,4 +1,4 @@
-### Online-Staj-2-Proje-2.5D-Platform-Oyun
+# Online-Staj-2-Proje-2.5D-Platform-Oyun
 Online Staj 2 Proje(2.5D Platform Oyun)
 Most of the assets are from the Asset Store and free assets. So the game may not be very good in terms of UI. My second major game with Unity. The first was the card guessing game. [Unity vocabulary game project link](https://github.com/MyscherzoTR/Unity-vocabulary-game-project) This project was developed for internship 2 and will continue to be developed.
 ## Main Menu
@@ -9,7 +9,7 @@ There are 3 buttons in the Main Menu.
 
 ![MainMenu](https://user-images.githubusercontent.com/51875713/132951787-034aec8d-81a2-4f91-bb85-41aa29d1fc60.png)
 
-# Main Menu Level Chosoe
+### Main Menu Level Chosoe
 You can choose and play previously played levels from this section. I used PlayerPrefs for this. Buttons become active or inactive according to PlayerPrefs.
 
 ![MainMenu_LevelSelection](https://user-images.githubusercontent.com/51875713/134647507-59a84d6f-77cb-4bac-a4a7-c90d75293e5e.png)
@@ -28,14 +28,14 @@ Sample designs for a level(Level 3). As I said, assets are free and i got them f
 ![SampleLevel3](https://user-images.githubusercontent.com/51875713/132951945-e66562ec-7ea0-4563-bea9-ac1fa41f5b8b.png)
 ![SampleLevel4](https://user-images.githubusercontent.com/51875713/132951946-ee8ed10a-49d4-4bc2-a296-92abf2703cd4.png)
 
-# Sample Level Climb Ladder
+### Sample Level Climb Ladder
 The climb button is normally deactivated. It becomes active when it comes to the relevant ladder. When the climb button is active, I deactivate the attack and jump buttons to avoid problems such as bugs.
 
 When the work is done with the ladder, the climb button is deactivated again and the jump and attack buttons are active again.
 ![SampleLevel_ClimbLadder1](https://user-images.githubusercontent.com/51875713/132952050-4639f5cf-4707-4ee2-ad99-2d95b9579c5d.png)
 ![SampleLevel_ClimbLadder2](https://user-images.githubusercontent.com/51875713/132952051-8dd81654-54ca-4d05-a4bb-9572ad070133.png)
 
-# Sample Level Game Over Screen
+### Sample Level Game Over Screen
 When the character we manage dies (by the enemy or falls down), the endgame panel becomes active.
 
 1. Main Menu; returns to the main menu.
@@ -44,7 +44,7 @@ When the character we manage dies (by the enemy or falls down), the endgame pane
 
 ![SampleLevel_gameOverPanel](https://user-images.githubusercontent.com/51875713/132951936-7f637f6a-86ad-43ed-8bdf-23f2d7c98b3f.png)
 
-# Sample Level Next Level Pass
+### Sample Level Next Level Pass
 When the chapter is completed successfully, this panel opens while moving to the next chapter.
 
 ![SampleLevel_nextLevelPass](https://user-images.githubusercontent.com/51875713/132951938-33f2c8a5-e5a4-4fd5-a8ec-34ddbfef69a4.png)
