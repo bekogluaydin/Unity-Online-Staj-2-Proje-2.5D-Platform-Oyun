@@ -2,12 +2,16 @@
 Online Staj 2 Proje(2.5D Platform Oyun)
 Most of the assets are from the Asset Store and free assets. So the game may not be very good in terms of UI. My second major game with Unity. The first was the card guessing game. [Unity vocabulary game project link](https://github.com/MyscherzoTR/Unity-vocabulary-game-project) This project was developed for internship 2 and will continue to be developed.
 
-## İçerikler
-- Main Menü
-- Example Level Display
-- New Additions
+### Project Subject
+It is a platform game where we can earn points by collecting gold that can replace points throughout the level and killing the enemies we come across. In order to complete the chapter, all the enemies on the map must be killed.
 
-## Main Menu
+## Ingredients
+- Main Menü
+- Example Level Display (Sample Level)
+- New Additions and Modifications
+- To be added in the future
+
+## 1) Main Menu
 There are 3 buttons in the Main Menu. 
 1. Start button, that is, the last level of the user continues from there.
 2. Level selection button; With this button, previously played levels can be selected.
@@ -20,7 +24,7 @@ You can choose and play previously played levels from this section. I used Playe
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/51875713/134647507-59a84d6f-77cb-4bac-a4a7-c90d75293e5e.png" width="580"></img></p>
 
-## Sample Level
+## 2) Sample Level
 Sample designs for a level(Level 3). As I said, assets are free and i got them from asset store.
 
 1. As for the character control buttons, I added them at the last moment so that they can be played on mobile.
@@ -63,7 +67,7 @@ When the chapter is completed successfully, this panel opens while moving to the
 <p align="center"> <img src="https://user-images.githubusercontent.com/51875713/132951938-33f2c8a5-e5a4-4fd5-a8ec-34ddbfef69a4.png" width="800"></img></p>
 
 
-## New Additions and Modifications
+## 3) New Additions and Modifications
 Improvements and modifications were made to the User Interface. & Design adjustments were made and 3 winter maps were added to the game.
 
 ### Added New Player Controller Buttons
@@ -78,3 +82,9 @@ There were 3 forest maps. Added 3 new winter maps.
 <p align="center"> <img src="https://user-images.githubusercontent.com/51875713/134648852-554c175d-41bb-4175-b386-b4530c935e5a.png" width="820"></img></p>
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/51875713/134648857-180ce1e0-e468-4cfa-ba5d-fa8a36dccc45.png" width="820"></img></p>
+
+## 4) To be added in the future
++ Variety of weapons, characters, enemies and different skins,
++ Stat enhancement for Character-Enemy (Health, Attack, Speed etc.)
++ I plan to implement these features with in-game points earned.
+
